@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "154378923582",
+    "project_id": "ifrsquiz",
+    "storage_bucket": "ifrsquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154378923582:android:212bf193b2760663426b6f",
+        "android_client_info": {
+          "package_name": "com.montagmakes.ifrsquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154378923582-k5qr3s0f22jj6badjkfmv5mnb1r8u7lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.montagmakes.ifrsquiz",
+            "certificate_hash": "c8b8592bd5cde9f88612080be93b96910c87be23"
+          }
+        },
+        {
+          "client_id": "154378923582-1vc7h1ijg3n2ouch5aog70e67oslk2re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoGidQMc09z8HqEF8f1NU9AGUwKlg8U3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154378923582-1vc7h1ijg3n2ouch5aog70e67oslk2re.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "154378923582-1bvf56b1etmigcgrgdiq2r014sf4b0t9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.montagmakes.ifrsquiz.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
