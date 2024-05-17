@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
 import 'package:tax_calculator/screens/screen_business_tax_calculator.dart';
 import 'package:tax_calculator/screens/screen_salary_tax_calculator.dart';
-import 'package:tax_calculator/screens/screen_tax_notice_support.dart';
 
 Logger logger = Logger();
 
@@ -80,7 +79,7 @@ class MyHomePage extends StatelessWidget {
             width: 300,
             child: FilledButton(
                 style: ButtonStyle(
-                  backgroundColor: MaterialStateColor.resolveWith(
+                  backgroundColor: WidgetStateColor.resolveWith(
                       (states) => const Color(0xFFD50000)),
                 ),
                 onPressed: () {
@@ -98,7 +97,7 @@ class MyHomePage extends StatelessWidget {
             width: 300,
             child: FilledButton(
                 style: ButtonStyle(
-                  backgroundColor: MaterialStateColor.resolveWith(
+                  backgroundColor: WidgetStateColor.resolveWith(
                       (states) => const Color(0xFFD50000)),
                 ),
                 onPressed: () {
@@ -110,24 +109,6 @@ class MyHomePage extends StatelessWidget {
                   );
                 },
                 child: const Text("Business Tax Calculator")),
-          ),
-          const SizedBox(height: 20),
-          SizedBox(
-            width: 300,
-            child: FilledButton(
-                style: ButtonStyle(
-                  backgroundColor: MaterialStateColor.resolveWith(
-                      (states) => const Color(0xFFD50000)),
-                ),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const TaxNoticeSupportScreen(),
-                    ),
-                  );
-                },
-                child: const Text("Tax Notice Support")),
           ),
         ],
       ),

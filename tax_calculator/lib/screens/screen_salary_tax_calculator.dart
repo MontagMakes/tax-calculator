@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'package:tax_calculator/data/tax_brackets.dart';
 import 'package:tax_calculator/main.dart';
@@ -197,7 +196,7 @@ class _SalaryTaxCalculatorScreenState extends State<SalaryTaxCalculatorScreen> {
                   child: FilledButton(
 
                     style: ButtonStyle(
-                      backgroundColor: MaterialStateColor.resolveWith(
+                      backgroundColor: WidgetStateColor.resolveWith(
                           (states) => const Color(0xFFD50000)),
                     ),
                     onPressed: dropdownValue != null ? () {
