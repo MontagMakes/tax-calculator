@@ -77,6 +77,7 @@ class _BusinessTaxCalculatorScreenState extends State<BusinessTaxCalculatorScree
                     '2022',
                     '2023',
                     '2024',
+                    '2025',
                   ].map<DropdownMenuItem<String>>((String value) {
                     return DropdownMenuItem<String>(
                       value: value,

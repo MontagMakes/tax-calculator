@@ -82,6 +82,14 @@ Map<String, Map<String, List<Map<String, double>>>> taxBrackets = {
       {'lower': 3600001, 'upper': 6000000, 'fixedRate': 435000, 'variableRate': 27.5},
       {'lower': 6000001, 'upper': double.infinity, 'fixedRate': 1095000, 'variableRate': 35},
     ],
+    '2025': [
+      {'lower': 0, 'upper': 600000, 'fixedRate': 0, 'variableRate': 0},
+      {'lower': 600001, 'upper': 1200000, 'fixedRate': 0, 'variableRate': 5},
+      {'lower': 1200001, 'upper': 2200000, 'fixedRate': 30000, 'variableRate': 15},
+      {'lower': 2200001, 'upper': 3200000, 'fixedRate': 180000, 'variableRate': 25},
+      {'lower': 3200001, 'upper': 4100000, 'fixedRate': 430000, 'variableRate': 30},
+      {'lower': 4100000, 'upper': double.infinity, 'fixedRate': 700000, 'variableRate': 35},
+    ],
   },
   'business': {
     '2018': [
@@ -152,5 +160,6 @@ Map<String, Map<String, List<Map<String, double>>>> taxBrackets = {
       {'lower': 3000001, 'upper': 4000000, 'fixedRate': 465000, 'variableRate': 30},
       {'lower': 4000001, 'upper': double.infinity, 'fixedRate': 765000, 'variableRate': 35},
     ],
+    
   }
 };

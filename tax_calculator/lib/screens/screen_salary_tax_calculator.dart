@@ -41,6 +41,8 @@ class _SalaryTaxCalculatorScreenState extends State<SalaryTaxCalculatorScreen> {
         padding: const EdgeInsets.all(8.0),
         child: Column(
           children: <Widget>[
+
+            // title
             const Center(
                 child: Text(
               "Salary Tax Calculator",
@@ -53,6 +55,7 @@ class _SalaryTaxCalculatorScreenState extends State<SalaryTaxCalculatorScreen> {
               height: 10.0,
             ),
 
+            // Dropdown for selecting tax year
             Container(
               decoration: BoxDecoration(
                 border: Border.all(color: Colors.grey),
@@ -79,6 +82,7 @@ class _SalaryTaxCalculatorScreenState extends State<SalaryTaxCalculatorScreen> {
                     '2022',
                     '2023',
                     '2024',
+                    '2025',
                   ].map<DropdownMenuItem<String>>((String value) {
                     return DropdownMenuItem<String>(
                       value: value,
